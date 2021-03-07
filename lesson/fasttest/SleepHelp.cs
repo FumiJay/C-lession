@@ -13,7 +13,7 @@ namespace fasttest
         public static void SleepAwhile(int second) 
         {
             Random RanTime = new Random();
-            int i = RanTime.Next(10, 300); //回傳括號內的亂數
+            int i = RanTime.Next(10, 500); //回傳括號內的亂數
 
             int ms = second * i;
 
